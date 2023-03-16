@@ -1,5 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import HomePage from "./pages/HomePage";
+import BlogPage from "./pages/BlogPage";
+import ContactPage from "./pages/ContactPage";
+import Error404Page from "./pages/Error404Page";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (

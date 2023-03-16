@@ -6,10 +6,13 @@ import Error404 from "./pages/Error404";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import ContactPage from "./pages/ContactPage";
+import Navigation from "./components/Navigation";
+
 function App() {
   return (
     <div className="App">
       <Router>
+        <Navigation />
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/login" element={<LoginPage />}></Route>

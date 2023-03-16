@@ -1,7 +1,12 @@
-import React from "react";
-import { Navigation } from "react-router-dom";
-function HomePage() {
-  return <nav>HomePage</nav>;
-}
+import React from 'react';
 
-export default HomePage;
+import Navigation from '../components/Navigation';
+
+export default function HomePage() {
+  return (
+    <div>
+      <Navigation />
+      <p>HomePage</p>
+    </div>
+  )
+}
